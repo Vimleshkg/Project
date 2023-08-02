@@ -1,0 +1,288 @@
+.App{
+  background-image: linear-gradient(#00008B, #301934);
+}
+
+#nav{
+  background-image: linear-gradient(#00008B, #301934);
+  height:60px;
+
+
+}
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+#nav img{
+ 
+  height:40px;
+  width:80px;
+  
+}
+
+
+.menu{
+  background-image: linear-gradient(#00008B, #301934);
+  height: 503px;
+}
+
+.menuList{
+ 
+  background-image: linear-gradient(#00008B, #301934);
+}
+.menuList h1{
+  color:#fff;
+   font-size: 20px;
+   padding:10px;
+   border-radius: 5px;
+ 
+}
+
+.menuList h1 span{
+  float: right;
+  color:white;
+}
+
+
+
+.row{
+  height: auto;
+}
+
+.menuList h1:hover{
+  background-color:rgb(247, 62, 93);
+}
+
+/* serachBar */
+
+#search-icon{
+  color:#fff;
+  margin-right:5px
+ 
+}
+
+ .SearchB{
+
+border-color: rgb(242, 243, 242);
+margin-left:79%;
+padding-right:18px;
+margin-bottom:23px;
+display: flex;
+flex-direction: column;
+
+align-items:center;
+width:160px;
+
+
+ }
+
+ input{
+
+
+  width:130px;
+ 
+ }
+
+
+.navB img{
+  margin-left:10px;
+  margin-top:5px;
+}
+
+
+/* SearchResult  */
+
+
+.search-bar-container{
+  position: absolute;
+  margin-top:0px;
+  margin-bottom:30px;
+  z-index:1;
+}
+
+.ElemList{
+  width:140px;
+  background-color: white;
+  display:flex;
+  flex-direction:column;
+  box-shadow:0px 0px 8px #ddd;
+  border-radius: 10px;
+  max-height:80px;
+  overflow-y:scroll;
+  margin-left:15px;
+  position:absolute;
+  margin-top:0.5%;
+}
+
+
+.navB #nav{
+
+}
+
+.mainBody{
+  background-image: url('./star-wars.jpg');
+  background-size:cover;
+}
+
+
+.mainBodyList{
+  background-image: url('./star-wars.jpg');
+  background-size:cover;
+  display: Flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.sort-selection{
+  background-color: white;
+  height: 25.5px;
+}
+
+
+.GridList{
+  display:flex;
+  margin-left:91%;
+  height: 25px;
+  margin-top:1px;
+  border-radius: 3px;
+  
+  background-color: rgb(255, 255, 255);
+
+}
+
+.GridList .i2{
+  margin-left:2px;
+  background-color:rgb(255, 255, 255);
+
+}
+
+
+
+
+/* media Queries */
+
+@media (max-width:1046px)
+{
+  .SearchB{
+    margin-left:79%;
+    margin-top:-50px;
+  }
+  
+
+}
+
+@media (max-width:662.5px)
+{
+  .SearchB{
+    margin-left:79%;
+    margin-top:-60px;
+  }
+  
+
+}
+
+@media (max-width:593px)
+{
+  .SearchB{
+    margin-left:79%;
+    margin-right:50px;
+    margin-bottom:30px;
+   
+    
+  }
+  
+}
+
+@media only screen and (min-width: 360px) and (max-width: 768px)
+{
+  .SearchB{
+    margin-left:79%;
+    margin-right:12px;
+    margin-top:-60px;
+  }
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1046px)
+{
+  #search-icon{
+    position:fixed;
+  }
+
+}
+
+@media only screen and (min-width: 280px) and (max-width: 604px)
+{
+  #search-icon{
+    position:fixed;
+    color:#fff;
+    
+    margin-left:3px;
+  }
+
+}
+
+@media  (min-width: 992px) and (max-width: 1046px)
+{
+  .SearchB{
+   
+    margin-left:79%;
+    margin-right:5px;
+    margin-top:5px;
+    
+    
+  }
+
+  #search-icon{
+  margin-right:30px;
+  }
+
+}
+
+/*
+@media (max-width:638px)
+{
+  .SearchB{
+    margin-left:79%;
+    margin-right:5px;
+    margin-top:-70px;
+  }
+  
+
+}
+
+
+@media (max-width:562px)
+{
+  .SearchB{
+   
+    margin-right:15px;
+   
+  }
+  
+
+}
+
+@media (max-width:509px)
+{
+  .SearchB{
+   
+    margin-right:29px;
+   
+  }
+  
+
+}
+
+@media (max-width:448px)
+{
+  .SearchB{
+   
+    margin-right:29px;
+   
+  }
+  
+
+}
+
+*/

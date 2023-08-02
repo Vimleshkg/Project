@@ -1,0 +1,117 @@
+.CardMain{
+  
+    position:absolute;
+    width:100%;
+    height:180px;
+  }
+
+  .CardGrid{
+    margin-top: 19px;
+    
+  }
+
+  
+  .cardDesc{
+  
+   max-width:100% ;
+
+    padding-left: 0px;
+    margin-left: 0px;
+    height:40px;
+    width:253px;
+    background-color:rgb(32, 32, 32);
+    
+  }
+
+
+.cardDescM{
+  max-width:100% ;
+
+  padding-left: 0px;
+  margin-left: 0px;
+  height:40px;
+  width:253px;
+  background-color:rgb(32, 32, 32);
+
+}
+
+.cardDescM span{
+  
+color:white;
+float:left;
+margin-top:5px;
+margin-left:10px;
+}
+
+
+
+.cardDescM button{
+  
+color:white;
+float:right;
+
+
+margin-right:3px;
+height:10%;
+margin-left:2px;
+
+}
+
+
+
+  .dashboard{
+    margin-top: 14px;
+    background-color: #fff;
+    margin-left: 95px;
+    margin-right: 60px;
+    margin-bottom: 14px;
+    border-radius: 5px;
+    
+  }
+  .dashboardImg{
+padding:6px;
+max-height:100%;
+max-width: 100%;
+
+  }
+  .dashboardImg img{
+    border-radius: 10px;
+    height:290px;
+    width: 800px;
+    
+      }
+
+      .dashboardDesc{
+        margin-left: 13px;
+      }
+
+      .dashboarParagraph p{
+        margin-left: 18px;
+        margin-right: 2px;
+        padding-bottom: 20px;
+        margin-top: 5px;
+      }
+.MenuElem{
+   
+   padding-top:5px;
+   padding-bottom:0px;
+    max-width: 100%;
+    max-height: 100%;
+    padding-bottom:15px;
+    color:white;
+}
+.MenuElem h1{
+  font-family:  sans-serif;
+  font-size: 25px;
+}
+
+
+
+
+/*  Media Queries  */
+
+@media (max-width:768)
+{
+  
+}
+      
